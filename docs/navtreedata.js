@@ -23,12 +23,20 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "TestRepo", "index.html", ]
+  [ "TestRepo", "index.html", [
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
